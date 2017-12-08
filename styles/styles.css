@@ -1,0 +1,182 @@
+/****************************main modules page******************************************/
+
+  /** modules style ***/
+.module{
+  display: inline-block
+}
+
+
+/**item image**/
+  img{
+    margin-left: 1rem;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  /** set color for cloth items**/
+  .bg-black {
+    color:black;
+  }
+
+  .bg-red{
+    color:red;
+  }
+
+  .bg-white {
+    color:black;
+  }
+
+  .bg-green {
+    color:green;
+  }
+
+  .bg-blue {
+    color:blue;
+  }
+
+  .bg-brown{
+    color:brown;
+  }
+
+  /**set colors for rating**/
+  .rating{
+
+  }
+  .fa-star, .fa-star-o {
+    color:yellow;
+  }
+  .ratenumber{
+    color: black;    
+  }
+  /**font settings and a tag settings on the module**/
+  a {
+    text-decoration: none;
+  }
+  /**brand name settings**/
+  h6 {
+    font-size: 1.3rem;
+    color:black;
+    margin-left: 2.5rem;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto
+  }
+  /**settings for cloth description**/
+  p{
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  /**price settings **/
+  .price{
+    color:red;
+    margin-left: .5rem;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .strikethrough{
+    color:black;
+    text-decoration: line-through;
+  }
+
+  .savevalueInfo {
+    margin-left: 2rem;
+  }
+
+  /**compare button settings**/
+  .comparefucntion {
+    width: 6rem;
+    height: 2rem;
+    margin-left: 2rem;
+    color: black;
+    font-style:normal;
+  }
+
+.module{
+  height: 20%;
+  text-align:center;
+  margin-bottom: 1rem;
+}
+img{
+  height: 14%;
+}
+
+.swatch {
+  margin-left: 2rem;
+  vertical-align: middle;
+}
+
+.description{
+  width: 14rem;
+}
+
+.seemore{
+  color: blue;
+}
+
+.checkList {
+  margin-bottom: 1rem;
+}
+/**************************style for compare section***************************/
+  ul li{
+    list-style: none;
+  }
+  .deleteItem{
+    border-bottom-style: none;
+  }
+   /** close item button style**/
+  li{
+    display: inline-block
+  }
+
+  li .deleteItem{
+    display: block;
+    margin-left: 2.5rem;
+  }
+
+  /**buttons style in compare section**/
+  .compareItemsButton, .removeAllItem {
+    display: block;
+    width: 8rem;
+    height: 2rem;
+    margin-left:9rem;
+  }
+
+  /**style for remove all items link**/
+  .removeAllItem{
+    color: blue;
+  }
+  /**sections between items and buttons**/
+  .col-1, .col-2{
+    display: inline-block;
+  }
+
+  .col-2{
+    width:inherit;
+  }
+
+  /**buttons in compare sections**/
+  .compare-section button{
+    border-bottom-style:solid;
+  }
+
+  .compareItemsButton {
+    margin-bottom: 1rem;
+  }
+
+  /**seting for the a tag**/
+  a{
+    color: black;
+  }
+  /**categories checkbox styles**/
+.category{
+    display: grid;
+    float: left;
+    margin-left: 1rem;
+}
+
+.items-list{
+    display: grid;
+}
